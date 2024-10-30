@@ -30,7 +30,6 @@ import { JwtPayload } from "./types/AuthContext";
             authorization,
             ACCESS_TOKEN_SECRET
           ) as JwtPayload;
-          console.log(payload.userId);
 
           return { userId: payload.userId };
         }
