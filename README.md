@@ -12,6 +12,17 @@ Steps to run this project:
 
 This API allows users to manage posts, including creating, retrieving, and deleting posts. It also includes user authentication and registration functionalities. The API is built using GraphQL and uses TypeScript with TypeGraphQL.
 
+## Setup
+
+To setup the project on a machine, you will need to clone the repository by running the command:
+
+1. git clone https://github.com/DC-21/blog-server.git
+
+2. Navigate to the project after cloning and open it in your compiler of choice,
+3. Create a database and configure the username, password and database name in data-source.ts,
+4. Run "npm install" to install all required dependencies,
+5. To start the project run "npm start"
+
 ## Base URL
 
 ```
